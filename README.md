@@ -1,0 +1,1 @@
+Right now i am studying data analytics as i make personal projects, or do additonal classwork, or do leetcode problem solving, i will update my git hub, this repo is specifically dedicated to leetcode problem solving.
