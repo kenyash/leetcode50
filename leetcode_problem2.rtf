@@ -44,6 +44,7 @@ Output:
 #common table expression that selects product, id and the max date for those products, filtering by dates less than or equal to '2019-08-16\'92 and grouping by the product id. (This grabs the latest change date for each grouped product) This is important to grab the maximum date for those dates with product id's specified by our filtering factor.\
 obtaining product id's that are not in the common table expression, and setting their price as 10.
 Then adding tale results together, with product id's and change_dates,  that are in the table expression, and keeping their price at the new price. This is important to make sure product id\'92s are being selected accurately according to filters set by cte.\
+
 with cte as (select product_id, max(change_date) as change_date
 from products 
 where change_date <= '2019-08-16'
